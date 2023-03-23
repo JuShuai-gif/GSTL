@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.5)
+project(GSTL)
+add_executable(GSTL)
+#自动搜索当前目录下
+aux_source_directory(. sources)
+
+target_sources(GSTL PUBLIC ${sources})
