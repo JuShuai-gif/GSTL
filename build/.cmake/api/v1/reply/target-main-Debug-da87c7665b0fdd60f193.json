@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "GSTL.exe"
+			"path" : "main.exe"
 		},
 		{
-			"path" : "GSTL.pdb"
+			"path" : "main.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -28,13 +28,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 3,
+				"line" : 8,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 7,
+				"line" : 11,
 				"parent" : 0
 			}
 		]
@@ -46,16 +46,27 @@
 			[
 				{
 					"fragment" : "-g"
+				},
+				{
+					"fragment" : "-std=gnu++11"
 				}
 			],
 			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
 			"sourceIndexes" : 
 			[
-				0
+				4
 			]
 		}
 	],
-	"id" : "GSTL::@6890427a1f51a3e7e1df",
+	"id" : "main::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -75,8 +86,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "GSTL",
-	"nameOnDisk" : "GSTL.exe",
+	"name" : "main",
+	"nameOnDisk" : "main.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -85,10 +96,20 @@
 	"sourceGroups" : 
 	[
 		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3
+			]
+		},
+		{
 			"name" : "Source Files",
 			"sourceIndexes" : 
 			[
-				0
+				4
 			]
 		}
 	],
@@ -96,9 +117,29 @@
 	[
 		{
 			"backtrace" : 2,
+			"path" : "GMath.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Stack.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "algorithm.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "algorithm_test.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
 			"compileGroupIndex" : 0,
 			"path" : "main.cpp",
-			"sourceGroupIndex" : 0
+			"sourceGroupIndex" : 1
 		}
 	],
 	"type" : "EXECUTABLE"

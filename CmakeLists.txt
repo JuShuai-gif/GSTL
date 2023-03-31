@@ -1,7 +1,11 @@
-cmake_minimum_required(VERSION 3.5)
-project(GSTL)
-add_executable(GSTL)
-#自动搜索当前目录下
-aux_source_directory(. sources)
+cmake_minimum_required(VERSION 3.0) # 指定 CMake 版本
 
-target_sources(GSTL PUBLIC ${sources})
+project(main) # 指定项目名称
+
+set(CMAKE_CXX_STANDARD 11) # 指定 C++ 标准
+set(CMAKE_CXX_STANDARD_REQUIRED True)
+# 生成可执行文件
+add_executable(main ${SOURCES})
+
+file(GLOB sources CONFIGURE_DEPENDS *.cpp *.h)
+target_sources(main PUBLIC ${sources})

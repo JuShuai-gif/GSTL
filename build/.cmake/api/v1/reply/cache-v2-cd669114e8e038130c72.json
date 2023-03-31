@@ -671,7 +671,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Program Files (x86)/Project"
+			"value" : "C:/Program Files (x86)/MyProject"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -891,7 +891,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "GSTL"
+			"value" : "main"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1270,7 +1270,7 @@
 			"value" : "FALSE"
 		},
 		{
-			"name" : "GSTL_BINARY_DIR",
+			"name" : "MyProject_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -1282,7 +1282,7 @@
 			"value" : "E:/Project/C++/GSTL/build"
 		},
 		{
-			"name" : "GSTL_IS_TOP_LEVEL",
+			"name" : "MyProject_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -1294,43 +1294,7 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "GSTL_SOURCE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "E:/Project/C++/GSTL"
-		},
-		{
-			"name" : "Project_BINARY_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "E:/Project/C++/GSTL/build"
-		},
-		{
-			"name" : "Project_IS_TOP_LEVEL",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "ON"
-		},
-		{
-			"name" : "Project_SOURCE_DIR",
+			"name" : "MyProject_SOURCE_DIR",
 			"properties" : 
 			[
 				{
@@ -1352,6 +1316,42 @@
 			],
 			"type" : "INTERNAL",
 			"value" : "TRUE"
+		},
+		{
+			"name" : "main_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "E:/Project/C++/GSTL/build"
+		},
+		{
+			"name" : "main_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "main_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "E:/Project/C++/GSTL"
 		}
 	],
 	"kind" : "cache",

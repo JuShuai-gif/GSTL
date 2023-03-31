@@ -62,7 +62,7 @@ CMAKE_BINARY_DIR = E:\Project\C++\GSTL\build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/GSTL.dir/all
+all: CMakeFiles/main.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -70,34 +70,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/GSTL.dir/clean
+clean: CMakeFiles/main.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/GSTL.dir
+# Target rules for target CMakeFiles/main.dir
 
 # All Build rule for target.
-CMakeFiles/GSTL.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GSTL.dir\build.make CMakeFiles/GSTL.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GSTL.dir\build.make CMakeFiles/GSTL.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Project\C++\GSTL\build\CMakeFiles --progress-num=1,2 "Built target GSTL"
-.PHONY : CMakeFiles/GSTL.dir/all
+CMakeFiles/main.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Project\C++\GSTL\build\CMakeFiles --progress-num=1,2 "Built target main"
+.PHONY : CMakeFiles/main.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/GSTL.dir/rule: cmake_check_build_system
+CMakeFiles/main.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\Project\C++\GSTL\build\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/GSTL.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\Project\C++\GSTL\build\CMakeFiles 0
-.PHONY : CMakeFiles/GSTL.dir/rule
+.PHONY : CMakeFiles/main.dir/rule
 
 # Convenience name for target.
-GSTL: CMakeFiles/GSTL.dir/rule
-.PHONY : GSTL
+main: CMakeFiles/main.dir/rule
+.PHONY : main
 
 # clean rule for target.
-CMakeFiles/GSTL.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GSTL.dir\build.make CMakeFiles/GSTL.dir/clean
-.PHONY : CMakeFiles/GSTL.dir/clean
+CMakeFiles/main.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/clean
+.PHONY : CMakeFiles/main.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
@@ -106,6 +106,7 @@ CMakeFiles/GSTL.dir/clean:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
+	$(CMAKE_COMMAND) -P E:\Project\C++\GSTL\build\CMakeFiles\VerifyGlobs.cmake
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

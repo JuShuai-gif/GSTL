@@ -1,4 +1,5 @@
 CMakeFiles/main.dir/main.cpp.obj: E:\Project\C++\GSTL\main.cpp \
+ E:\Project\C++\GSTL\algorithm_test.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
@@ -67,7 +68,20 @@ CMakeFiles/main.dir/main.cpp.obj: E:\Project\C++\GSTL\main.cpp \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/atomicity.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/gthr.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h \
+ C:/mingw64/x86_64-w64-mingw32/include/pthread.h \
  C:/mingw64/x86_64-w64-mingw32/include/errno.h \
+ C:/mingw64/x86_64-w64-mingw32/include/sys/types.h \
+ C:/mingw64/x86_64-w64-mingw32/include/process.h \
+ C:/mingw64/x86_64-w64-mingw32/include/corecrt_startup.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/limits.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/syslimits.h \
+ C:/mingw64/x86_64-w64-mingw32/include/limits.h \
+ C:/mingw64/x86_64-w64-mingw32/include/signal.h \
+ C:/mingw64/x86_64-w64-mingw32/include/pthread_signal.h \
+ C:/mingw64/x86_64-w64-mingw32/include/sys/timeb.h \
+ C:/mingw64/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h \
+ C:/mingw64/x86_64-w64-mingw32/include/pthread_compat.h \
+ C:/mingw64/x86_64-w64-mingw32/include/pthread_unistd.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_classes.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/string \
@@ -86,9 +100,6 @@ CMakeFiles/main.dir/main.cpp.obj: E:\Project\C++\GSTL\main.cpp \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/string_conversions.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdlib \
  C:/mingw64/x86_64-w64-mingw32/include/stdlib.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/limits.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/syslimits.h \
- C:/mingw64/x86_64-w64-mingw32/include/limits.h \
  C:/mingw64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/stdlib.h \
  C:/mingw64/x86_64-w64-mingw32/include/malloc.h \
@@ -114,4 +125,51 @@ CMakeFiles/main.dir/main.cpp.obj: E:\Project\C++\GSTL\main.cpp \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_ios.tcc \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ostream.tcc \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/istream \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/istream.tcc
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/istream.tcc \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/list \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_list.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/allocated_ptr.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/aligned_buffer.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/list.tcc \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/vector \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_construct.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_uninitialized.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_vector.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_bvector.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/vector.tcc \
+ E:\Project\C++\GSTL\algorithm.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/functional \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tuple \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/utility \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_relops.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/array \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/uses_allocator.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/invoke.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/refwrap.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/std_function.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/algorithm \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_algo.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/algorithmfwd.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_heap.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_tempbuf.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/uniform_int_dist.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/limits \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/random \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cmath \
+ C:/mingw64/x86_64-w64-mingw32/include/math.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/random.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/opt_random.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/pmmintrin.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/emmintrin.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xmmintrin.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mmintrin.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mm_malloc.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/random.tcc \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/numeric \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_numeric.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iterator \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stream_iterator.h \
+ E:\Project\C++\GSTL\Stack.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cassert \
+ C:/mingw64/x86_64-w64-mingw32/include/assert.h \
+ E:\Project\C++\GSTL\GMath.h

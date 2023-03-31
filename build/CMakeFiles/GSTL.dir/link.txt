@@ -1,3 +1,0 @@
-E:\SoftWare\Install\CMake\bin\cmake.exe -E rm -f CMakeFiles\GSTL.dir/objects.a
-C:\mingw64\bin\ar.exe qc CMakeFiles\GSTL.dir/objects.a @CMakeFiles\GSTL.dir\objects1
-C:\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\GSTL.dir/objects.a -Wl,--no-whole-archive -o GSTL.exe -Wl,--out-implib,libGSTL.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\GSTL.dir\linkLibs.rsp
