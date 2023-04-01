@@ -17,6 +17,7 @@ file(GLOB NEW_GLOB LIST_DIRECTORIES true "E:/Project/C++/GSTL/*.h")
 set(OLD_GLOB
   "E:/Project/C++/GSTL/GMath.h"
   "E:/Project/C++/GSTL/Stack.h"
+  "E:/Project/C++/GSTL/Vector.h"
   "E:/Project/C++/GSTL/algorithm.h"
   "E:/Project/C++/GSTL/algorithm_test.h"
   )

@@ -1,9 +1,28 @@
+/****
+ * 栈：使用vector作为容器
+ * 作者：GHR
+ * 时间：2023/3/31
+ * ****/
 #pragma once
 #include <iostream>
 #include <vector>
 #include <cassert>
 #include <type_traits>
+#include <exception>
 namespace G{
+class stack_exception : public std::exception
+{
+private:
+	std::string message_;
+public:
+	explicit stack_exception(const std::string& message)
+		:message_(message)
+	{}
+	virtual const char* what()const noexcept override{
+		return message_.c_str();
+	}
+};
+
 template<typename T>
 class Stack
 {
@@ -23,7 +42,7 @@ public:
 };
 
 template<typename T>
-std::ostream& operator<<(std::ostream& os,Stack<T> t){
+std::ostream& operator<<(std::ostream& os,Stack<T>& t){
 	for ( T const& elem : t.elems)
 	{
 		os << elem << " ";
@@ -59,3 +78,7 @@ void Stack<T>::print()const{
 }
 
 }
+
+
+
+

@@ -1,7 +1,7 @@
 [
 {
   "directory": "E:/Project/C++/GSTL/build",
-  "command": "C:\\mingw64\\bin\\g++.exe   -g -std=gnu++11 -o CMakeFiles\\main.dir\\main.cpp.obj -c E:\\Project\\C++\\GSTL\\main.cpp",
+  "command": "C:\\mingw64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\main.dir\\main.cpp.obj -c E:\\Project\\C++\\GSTL\\main.cpp",
   "file": "E:/Project/C++/GSTL/main.cpp"
 }
 ]

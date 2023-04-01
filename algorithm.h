@@ -136,4 +136,26 @@ namespace G{
     {
         return G::minmax_element(beg, end, std::less<decltype(*beg)>());
     }
+
+    template<typename InputIterator1,typename InputIterator2>
+    bool equal(InputIterator1 beg1,InputIterator1 end1, InputIterator2 beg2){
+        while(beg1 != end1){
+            if (*beg1++ != *beg2++)
+            {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    template<typename InputIterator1,typename InputIterator2,typename Predicate>
+    bool equal(InputIterator1 beg1,InputIterator1 end1,InputIterator2 beg2,Predicate pre){
+        while (beg1 != end1)
+        {
+            if(!pre(*beg1++,*beg2++)){
+                return false;
+            }
+        }
+        return true;
+    }
 }

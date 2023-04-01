@@ -48,7 +48,7 @@
 					"fragment" : "-g"
 				},
 				{
-					"fragment" : "-std=gnu++11"
+					"fragment" : "-std=gnu++17"
 				}
 			],
 			"language" : "CXX",
@@ -58,11 +58,11 @@
 				[
 					1
 				],
-				"standard" : "11"
+				"standard" : "17"
 			},
 			"sourceIndexes" : 
 			[
-				4
+				5
 			]
 		}
 	],
@@ -102,14 +102,15 @@
 				0,
 				1,
 				2,
-				3
+				3,
+				4
 			]
 		},
 		{
 			"name" : "Source Files",
 			"sourceIndexes" : 
 			[
-				4
+				5
 			]
 		}
 	],
@@ -123,6 +124,11 @@
 		{
 			"backtrace" : 2,
 			"path" : "Stack.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Vector.h",
 			"sourceGroupIndex" : 0
 		},
 		{
